@@ -88,7 +88,8 @@ function NeedSpecificNameNotification () {
     'Too many matches found. Please enter a more specific name.'
   );
 }
-//функція, яка очищає весь список країн та очищає всі дані одної країни (картки)
+// функция очищает список стран и их характеристик
+
 function clearData () {
   countryList.innerHTML = '';
   countryInfoDiv.innerHTML = '';

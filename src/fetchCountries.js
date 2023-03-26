@@ -16,9 +16,6 @@ export default function fetchCountries (name) {
   });
 }
 
-// const URL = 'https://restcountries.com/v3.1/name';
-// const SEARCH_FIELDS = '?fields=name,capital,population,flags,languages';
-
 // export default function fetchCountries (name) {
 //   return fetch(`${URL}/${name}${SEARCH_FIELDS}`).then(response => {
 //     if (response.ok) {

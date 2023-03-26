@@ -17,4 +17,18 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  border-color: yellow ;
+  border-radius: 10px;
+ color: blue;
+  background-color:rgb(173, 230, 213);
+  margin-left: 40px;
 }
+.country {
+  list-style: none;
+}
+.paragraph-name {
+  font-size: 24px;
+  background-color: lightcyan;
+}
+
+.country-info{background-color: lightblue;}

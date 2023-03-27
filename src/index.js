@@ -19,7 +19,10 @@ inputEl.addEventListener('input', debounce(countrySearch, DEBOUNCE_DELAY));
 
 function countrySearch (event) {
   let countryNameInput = event.target.value.trim();
-
+  if (countryNameInput === '') {
+    clearData();
+    return;
+  }
   //   console.log(countryName);
   fetchCountries(countryNameInput)
     .then(countries => {
